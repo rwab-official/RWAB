@@ -1,4 +1,3 @@
-
 # RWAB – Founder and Project Creator
 
 ## Founder
@@ -8,6 +7,12 @@
 **Position:** Sole Founder and Project Creator
 
 **Official Project Email:** rasoolradnezhad9094@gmail.com
+
+## Public Founder Profile
+
+**GitHub Public Profile:** https://github.com/rwab-official
+
+This public GitHub profile is provided as a project-related public profile for the founder and project creator.
 
 ## Founder Statement
 
@@ -21,31 +26,31 @@ This document is published to provide transparent information about the project'
 
 ## Project Information
 
-- Project Name: RWAB
-- Token Name: RWABackedToken
-- Token Symbol: RWAB
-- Network: Polygon PoS
-- Chain ID: 137
+**Project Name:** RWAB  
+**Token Name:** RWABackedToken  
+**Token Symbol:** RWAB  
+**Network:** Polygon PoS  
+**Chain ID:** 137
 
 ## Official Project Links
 
-- Website: https://rwab-official.github.io/RWAB/
-- GitHub Repository: https://github.com/rwab-official/RWAB
-- GitHub Organization: https://github.com/rwab-official
+**Website:** https://rwab-official.github.io/RWAB/  
+**GitHub Repository:** https://github.com/rwab-official/RWAB  
+**GitHub Organization:** https://github.com/rwab-official
 
 ## Blockchain References
 
 **Token Contract:**
 
-0x64d4eb4819E03D844DD6525c9899569271320243
+`0x64d4eb4819E03D844DD6525c9899569271320243`
 
 **Documentation Registry Contract:**
 
-0x33E1389c863e7Bc2fcF15396e02b61603C77CA07
+`0x33E1389c863e7Bc2fcF15396e02b61603C77CA07`
 
 **Documentation Registration Transaction:**
 
-0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d
+`0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d`
 
 ## Transparency Statement
 
@@ -59,9 +64,7 @@ All project claims should be evaluated against their available supporting docume
 
 For official project inquiries:
 
-rasoolradnezhad9094@gmail.com
-
----
+**Email:** rasoolradnezhad9094@gmail.com
 
 **Rasool Radnezhad**  
 Sole Founder & Project Creator of RWAB
