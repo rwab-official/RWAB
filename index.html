@@ -1,1 +1,425 @@
-Redesign RWAB website content and align project disclosures
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RWAB is a Polygon PoS digital asset documentation and on-chain evidence registry initiative. Explore its founder, EUR 23 billion nominal financial-flow documentation reference, token information, blockchain records, and ecosystem development.">
+  <meta name="theme-color" content="#101a2b">
+  <title>RWAB | Digital Asset Documentation & Blockchain Initiative</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #131f33;
+      --panel2: #182740;
+      --text: #edf3fc;
+      --muted: #b5c2d5;
+      --accent: #55c7c2;
+      --accent2: #86a9ff;
+      --line: rgba(255,255,255,.12);
+      --max: 1080px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    a:hover { color: #a2eeea; }
+    .wrap { width: min(92%, var(--max)); margin: auto; }
+    header {
+      border-bottom: 1px solid var(--line);
+      background: #101a2b;
+    }
+    nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      padding: 12px 0;
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand img { width: 46px; height: 46px; object-fit: contain; }
+    .brand strong { font-size: 1.2rem; letter-spacing: 1px; }
+    nav .links { display: flex; flex-wrap: wrap; gap: 15px; }
+    nav .links a { color: var(--text); text-decoration: none; font-size: .92rem; }
+    .hero { padding: 76px 0 62px; }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: .82rem;
+    }
+    h1 { font-size: clamp(2.2rem, 6vw, 4.3rem); line-height: 1.12; margin: 14px 0; }
+    h2 { font-size: clamp(1.55rem, 4vw, 2.2rem); margin: 0 0 18px; }
+    h3 { margin: 0 0 10px; color: var(--accent2); }
+    p { color: var(--muted); margin: 0 0 15px; }
+    .hero p { max-width: 760px; font-size: 1.12rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 25px; }
+    .btn {
+      display: inline-block;
+      padding: 11px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      background: var(--accent);
+      color: #07151b;
+    }
+    .btn.secondary { background: transparent; border: 1px solid var(--line); color: var(--text); }
+    section { padding: 54px 0; border-top: 1px solid var(--line); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+      gap: 17px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 13px;
+      padding: 22px;
+      min-width: 0;
+    }
+    .metric { font-size: clamp(2rem, 5vw, 3.1rem); color: var(--accent); font-weight: bold; line-height: 1.2; }
+    .small { font-size: .9rem; color: var(--muted); }
+    .data {
+      background: var(--panel2);
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 12px;
+      overflow-wrap: anywhere;
+      font-family: monospace;
+      font-size: .9rem;
+      color: #dce8ff;
+      margin: 8px 0 14px;
+    }
+    .notice {
+      border-left: 4px solid var(--accent);
+      background: var(--panel2);
+      padding: 17px 19px;
+      border-radius: 7px;
+      margin-top: 18px;
+    }
+    ul { color: var(--muted); padding-left: 22px; }
+    li { margin: 7px 0; }
+    .tag {
+      display: inline-block;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      padding: 4px 10px;
+      color: var(--accent);
+      font-size: .82rem;
+      margin: 3px 5px 3px 0;
+    }
+    footer { border-top: 1px solid var(--line); padding: 30px 0; }
+    footer p { font-size: .9rem; }
+    @media (max-width: 600px) {
+      .hero { padding: 52px 0 42px; }
+      nav { align-items: flex-start; }
+      nav .links { gap: 10px; }
+      section { padding: 40px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand">
+        <img src="RWAB-logo-256.png" alt="RWAB project logo">
+        <strong>RWAB</strong>
+      </div>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#founder">Founder</a>
+        <a href="#documentation">Documentation</a>
+        <a href="#token">Token</a>
+        <a href="#ecosystem">Ecosystem</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="hero" id="about" style="border-top:0">
+      <div class="eyebrow">Polygon PoS · Digital Asset Documentation</div>
+      <h1>RWAB — Real-World Asset Documentation & Blockchain Initiative</h1>
+      <p>
+        RWAB is an independently created project focused on organizing financial-flow
+        documentation, preserving digital records, publishing evidence references,
+        and exploring blockchain-based tokenization.
+      </p>
+      <p>
+        The initiative combines structured documentation with on-chain reference
+        records and a market-oriented development vision for a growing digital asset
+        ecosystem.
+      </p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/rwab-official/RWAB">Explore GitHub Repository</a>
+        <a class="btn secondary" href="#token">View Token Information</a>
+      </div>
+    </section>
+
+    <section id="founder">
+      <h2>Founder & Project Creator</h2>
+      <div class="card">
+        <h3>Rasool Radnezhad</h3>
+        <p><strong>Sole Founder & Project Creator</strong></p>
+        <p>
+          RWAB was independently initiated and developed by Rasool Radnezhad.
+          The founder leads the project's direction, documentation, website,
+          smart contract deployment, blockchain references, and public disclosures.
+        </p>
+        <p>
+          The project is built around an independent development approach,
+          with an emphasis on transparent documentation and continued ecosystem growth.
+        </p>
+        <a href="FOUNDER.md">Read the Founder Declaration</a>
+      </div>
+    </section>
+
+    <section id="documentation">
+      <h2>Financial-Flow Documentation Reference</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="metric">€23 Billion</div>
+          <h3>Aggregate Nominal Reference Value</h3>
+          <p>
+            The project declares an aggregate nominal value of EUR 23 billion
+            for its supporting-document and financial-flow records.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Documentation Approach</h3>
+          <p>
+            RWAB organizes supporting records and financial-flow references
+            into a structured documentation framework intended to support
+            traceability, review, and future independent assessment.
+          </p>
+        </div>
+      </div>
+      <div class="notice">
+        <strong>Value clarification</strong>
+        <p>
+          EUR 23 billion is a project-declared nominal documentation reference.
+          It represents the aggregate nominal value attributed by the project
+          to documented supporting records and financial-flow references.
+          It is not presented as a current cash balance, independently verified
+          reserve, confirmed collateral, audited asset value, token market
+          capitalization, token price, or guaranteed redemption amount.
+          The underlying records remain subject to independent review.
+        </p>
+      </div>
+    </section>
+
+    <section id="token">
+      <h2>RWAB Token & Blockchain Information</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Token Details</h3>
+          <p>Token Name: RWABackedToken</p>
+          <p>Token Symbol: RWAB</p>
+          <p>Network: Polygon PoS Mainnet</p>
+          <p>Chain ID: 137</p>
+          <p>Decimals: 18</p>
+          <p>Project-Declared Intended Supply: 16,000,000,000 RWAB</p>
+          <p class="small">
+            The intended supply is a project-declared figure. The live
+            on-chain total supply should be checked directly on the blockchain.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Token Contract</h3>
+          <div class="data">0x64d4eb4819E03D844DD6525c9899569271320243</div>
+          <a href="https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243">
+            View RWAB on PolygonScan
+          </a>
+        </div>
+        <div class="card">
+          <h3>Documentation Registry</h3>
+          <div class="data">0x33E1389c863e7Bc2fcF15396e02b61603C77CA07</div>
+          <a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07">
+            View Registry Contract
+          </a>
+        </div>
+      </div>
+      <div class="notice">
+        <strong>Smart contract and market information</strong>
+        <p>
+          The RWAB token contract provides ERC-20 token functionality,
+          holder burning functionality, and owner-restricted functions
+          for minting and updating the contract's valuation-related data.
+          Source-code verification on a block explorer is not the same
+          as an independent security audit.
+        </p>
+        <p>
+          Any market price for RWAB will be determined by actual market
+          conditions, supply and demand, trading activity, and available
+          liquidity. No fixed market price or guaranteed token value is promised.
+        </p>
+      </div>
+    </section>
+
+    <section id="onchain">
+      <h2>On-Chain Documentation References</h2>
+      <div class="card">
+        <h3>IPFS Documentation Identifier</h3>
+        <div class="data">bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde</div>
+        <a href="https://ipfs.io/ipfs/bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde">
+          Open IPFS Reference
+        </a>
+        <h3 style="margin-top:22px">Polygon Registry Transaction</h3>
+        <div class="data">0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d</div>
+        <a href="https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d">
+          View Registration Transaction
+        </a>
+      </div>
+      <div class="notice">
+        <strong>What the blockchain reference means</strong>
+        <p>
+          The recorded transaction refers to a digital documentation reference
+          and its associated content identifier. A cryptographic hash functions
+          as a digital fingerprint of the referenced documentation package.
+          It can help identify whether a document package has changed.
+        </p>
+        <p>
+          This reference does not, by itself, prove every underlying transaction,
+          the authenticity or ownership of the underlying assets, legal rights,
+          bank balances, or independent financial verification.
+        </p>
+      </div>
+    </section>
+
+    <section id="ecosystem">
+      <h2>Marketing, Ecosystem Growth & Liquidity Expansion</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Market Development</h3>
+          <p>
+            RWAB is pursuing a market-development strategy to increase
+            project visibility, communicate its technical and documentation
+            framework, and build awareness among potential participants.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Ecosystem Expansion</h3>
+          <p>
+            The project aims to encourage participation, develop useful
+            partnerships, improve public resources, and support the gradual
+            growth of its blockchain ecosystem.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Liquidity Development</h3>
+          <p>
+            RWAB's development vision includes exploring liquidity-pool
+            opportunities and decentralized-market access as the ecosystem
+            develops and market conditions permit.
+          </p>
+        </div>
+      </div>
+      <div class="notice">
+        <p>
+          Marketing, ecosystem expansion, exchange access, and liquidity
+          development are ongoing strategic objectives. Their availability
+          and results depend on execution, participation, market conditions,
+          and applicable platform requirements.
+        </p>
+      </div>
+      <p style="margin-top:18px">
+        <a href="https://quickswap.exchange/">QuickSwap</a>
+        <span class="small"> — decentralized exchange platform reference</span>
+      </p>
+    </section>
+
+    <section id="vision">
+      <h2>Development Vision</h2>
+      <p>
+        RWAB aims to advance a structured digital documentation environment
+        connected to blockchain infrastructure. Its development priorities
+        include improving documentation quality, maintaining accessible
+        public records, expanding project communication, and exploring
+        responsible tokenization models.
+      </p>
+      <p>
+        Future development may include additional documentation, technical
+        improvements, ecosystem partnerships, and liquidity initiatives,
+        subject to verification, feasibility, and applicable requirements.
+      </p>
+      <div>
+        <span class="tag">Polygon PoS</span>
+        <span class="tag">Digital Documentation</span>
+        <span class="tag">On-Chain References</span>
+        <span class="tag">Tokenization Research</span>
+        <span class="tag">Ecosystem Development</span>
+      </div>
+    </section>
+
+    <section id="resources">
+      <h2>Official Project Resources</h2>
+      <div class="card">
+        <ul>
+          <li><a href="https://github.com/rwab-official/RWAB">GitHub Repository</a></li>
+          <li><a href="https://github.com/rwab-official">GitHub Organization</a></li>
+          <li><a href="https://rwab-official.github.io/RWAB/">Official Website</a></li>
+          <li><a href="FOUNDER.md">Founder Declaration</a></li>
+          <li><a href="https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243">RWAB Token on PolygonScan</a></li>
+          <li><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07">Documentation Registry on PolygonScan</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="logos">
+      <h2>Official Logo Resources</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>32 × 32 SVG</h3>
+          <a href="RWAB-logo-32.svg">View or download SVG logo</a>
+        </div>
+        <div class="card">
+          <h3>64 × 64 PNG</h3>
+          <a href="RWAB-logo-64.png">View or download PNG logo</a>
+        </div>
+        <div class="card">
+          <h3>256 × 256 PNG</h3>
+          <a href="RWAB-logo-256.png">View or download PNG logo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Official Project Contact</h2>
+      <div class="card">
+        <h3>Rasool Radnezhad</h3>
+        <p>Sole Founder & Project Creator</p>
+        <p>Email: <a href="mailto:rasoolradnezhad9094@gmail.com">rasoolradnezhad9094@gmail.com</a></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>RWAB — Real-World Asset Documentation & Blockchain Initiative</strong></p>
+    <p>Polygon PoS Mainnet · Chain ID 137</p>
+    <p>
+      Project information is published for documentation and informational
+      purposes. Financial-flow references and token-related statements should
+      be assessed according to the disclosures on this website.
+    </p>
+    <p>© RWAB Project. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
