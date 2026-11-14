@@ -6,7 +6,7 @@ RWAB is an independently conceived and developed blockchain initiative founded b
 
 Built on Polygon PoS, RWAB brings together financial-flow documentation, digital evidence registration, blockchain technology, and market-oriented token development.
 
-The project aims to create a transparent digital framework for documenting financial-flow information and exploring new opportunities in blockchain-based tokenization.
+The project aims to create a transparent digital framework for documenting financial-flow information and exploring opportunities in blockchain-based tokenization.
 
 2. Founder & Project Creator
 
@@ -22,11 +22,11 @@ Official Founder Declaration:
 
 RWAB documents financial-flow references and transaction-related records with an aggregate nominal reference value equivalent to EUR 23 billion.
 
-Cryptographic fingerprints (hashes) associated with the documented materials have been registered on the Polygon blockchain, creating traceable digital references for the project's documentation framework.
+A cryptographic fingerprint (hash) of the project's documentation package has been registered on the Polygon blockchain, providing a traceable digital reference for the documentation.
 
-The EUR 23 billion figure represents the aggregate nominal value assigned to the documented financial-flow records. It describes the scale of the documented financial-flow information rather than a cash-balance figure.
+The EUR 23 billion figure represents the aggregate nominal reference value assigned to the documented financial-flow records. It describes the scale of the documented financial information and is not a cash-balance figure.
 
-This documentation approach supports structured financial information management, digital traceability, and future development of blockchain-based financial-flow tokenization.
+This documentation framework supports structured financial information management, digital traceability, and the development of blockchain-based financial-flow tokenization models.
 
 4. Token and Blockchain Information
 
@@ -35,7 +35,8 @@ This documentation approach supports structured financial information management
 - Token Symbol: RWAB
 - Network: Polygon PoS Mainnet
 - Chain ID: 137
-- Intended Token Supply: 16,000,000,000 RWAB
+- Decimals: 18
+- Project-Declared Intended Supply: 16,000,000,000 RWAB
 
 Token Contract
 
@@ -43,13 +44,29 @@ Token Contract
 
 "View RWAB Token on PolygonScan" (https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243)
 
+"View Verified Contract Source" (https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243#code)
+
 Documentation Registry Contract
 
 "0x33E1389c863e7Bc2fcF15396e02b61603C77CA07"
 
 "View Documentation Registry on PolygonScan" (https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07)
 
-5. On-Chain Documentation References
+5. Smart Contract Features
+
+The published RWAB contract source includes:
+
+- ERC-20 token functionality.
+- Token burning functionality.
+- Owner-controlled token minting.
+- An owner-controlled "totalReserveUSDValue" field.
+- An "updateAssetValuation" function for updating the stored valuation figure.
+
+The valuation field represents information stored in the smart contract. Its presence does not independently establish the existence, ownership, or value of assets and does not determine the token's market price.
+
+Contract source-code verification on PolygonScan confirms that the published source corresponds to the deployed contract. Source verification is distinct from an independent security audit.
+
+6. On-Chain Documentation References
 
 Network: Polygon PoS
 Chain ID: 137
@@ -64,19 +81,17 @@ Registry Transaction:
 
 "View Registration Transaction on PolygonScan" (https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d)
 
-These references form part of RWAB's digital documentation and evidence-registration framework.
+These references form part of RWAB's digital documentation and evidence-registration framework. The on-chain fingerprint provides a way to identify and check the referenced documentation package.
 
-6. Market-Based Token Economy
+7. Market-Based Token Economy
 
 RWAB follows a market-oriented token development model.
 
-The market price of RWAB is shaped by supply and demand, trading activity, market participation, and available liquidity.
+The market price of RWAB is determined by supply and demand, trading activity, market participation, and available liquidity.
 
-The project's market approach focuses on open market participation and the development of a broader ecosystem.
+The EUR 23 billion nominal documentation figure represents the scale of documented financial-flow information. It is separate from the token's market price and market capitalization.
 
-The EUR 23 billion nominal documentation figure is a financial-flow documentation reference and is separate from the market price or market capitalization of RWAB.
-
-7. Marketing, Ecosystem Growth & Liquidity Expansion
+8. Marketing, Ecosystem Growth & Liquidity Expansion
 
 RWAB is focused on expanding its market presence and developing its ecosystem.
 
@@ -87,11 +102,19 @@ Current strategic priorities include:
 - Exploring strategic partnerships.
 - Expanding market participation.
 - Developing liquidity-pool opportunities.
-- Supporting broader access to the RWAB token through suitable market infrastructure.
+- Supporting broader access to RWAB through suitable market infrastructure.
 
 Liquidity development is an important part of the project's market-growth strategy. Participation and liquidity arrangements are subject to the relevant platform rules and market conditions.
 
-8. Development Vision
+Market and Liquidity Resources
+
+- "QuickSwap Swap" (https://dapp.quickswap.exchange/swap?chainId=137)
+- "QuickSwap Pool" (https://dapp.quickswap.exchange/pool?chainId=137)
+- "QuickSwap Token Analytics" (https://info.quickswap.exchange/tokens)
+
+These links provide access to market tools. Current trading-pair availability, trading activity, and liquidity should be checked directly on the relevant platform.
+
+9. Development Vision
 
 RWAB's development vision includes:
 
@@ -102,20 +125,20 @@ RWAB's development vision includes:
 - Growing the Polygon-based project ecosystem.
 - Building transparent and accessible public documentation.
 
-9. Project Resources
+10. Project Resources
 
 - Official Website: https://rwab-official.github.io/RWAB/
 - GitHub Repository: https://github.com/rwab-official/RWAB
 - GitHub Organization: https://github.com/rwab-official
 - Founder Declaration: https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md
 
-10. Official Logo Resources
+11. Official Logo Resources
 
 - 32×32 SVG: "RWAB-logo-32.svg" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-32.svg)
 - 64×64 PNG: "RWAB-logo-64.png" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-64.png)
 - 256×256 PNG: "RWAB-logo-256.png" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-256.png)
 
-11. Project Contact
+12. Project Contact
 
 Rasool Radnezhad
 Sole Founder & Project Creator
