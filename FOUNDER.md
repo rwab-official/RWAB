@@ -8,75 +8,58 @@ Position: Sole Founder and Project Creator of RWAB
 
 Official Project Email: rasoolradnezhad9094@gmail.com
 
-2. Public Professional Profile
+RWAB was independently initiated and developed by Rasool Radnezhad. The founder is responsible for the project's direction, documentation, website, smart contract deployment, blockchain references, and public project disclosures.
 
-The following public profile provides information about the founder, his involvement with RWAB, and his project-related activities.
+RWAB currently identifies one founder. No additional employees, co-founders, or team members are publicly claimed in this declaration.
+
+2. Public Founder Profiles
 
 AI Lounge – Founder Profile:
+
 https://ai.lounge.ai/@rasoolrwab
 
 AI Lounge – RWAB Project Profile:
+
 https://ai.lounge.ai/@rasoolrwab/rwab
 
-These public pages present the founder's project affiliation, professional introduction, and information about RWAB.
+GitHub Organization:
 
-GitHub Public Organization Profile:
 https://github.com/rwab-official
 
-The GitHub organization profile provides access to the public RWAB repository and its technical documentation.
+These links are provided as public project and founder references. The AI Lounge profile is a public professional-community profile and is not represented as an independent identity verification, employment verification, professional accreditation, or endorsement by AI Lounge.
 
-These links are provided as public professional and project references. They do not, by themselves, constitute independent identity verification, professional accreditation, or endorsement by the platforms.
-
-3. Founder Statement
-
-I, Rasool Radnezhad, declare that I am the sole founder and project creator of RWAB.
-
-RWAB was independently initiated and developed under my direction. I am responsible for the project's development direction, public documentation, website, smart contract deployment, blockchain documentation references, and project disclosures.
-
-This document is published to provide accessible information about the founder, the origin of the project, and the relationship between the founder and RWAB.
-
-4. Project Overview
+3. Official Project Information
 
 Project Name: RWAB
-
-Full Project Description: Real-World Asset Documentation & Blockchain Initiative
 
 Token Name: RWABackedToken
 
 Token Symbol: RWAB
 
-Network: Polygon PoS Mainnet
+Blockchain Network: Polygon PoS Mainnet
 
 Chain ID: 137
 
-RWAB is an independently developed blockchain-based project focused on organizing digital asset supporting documentation, maintaining public records, publishing on-chain documentation references, and exploring blockchain-based tokenization.
-
-The project maintains public technical information, source-code references, documentation records, and disclosures through its official website and GitHub repository.
-
-5. Official Project Resources
-
 Official Website:
+
 https://rwab-official.github.io/RWAB/
 
 GitHub Repository:
+
 https://github.com/rwab-official/RWAB
 
-GitHub Organization:
-https://github.com/rwab-official
+Official Project Email:
 
-Founder Profile – AI Lounge:
-https://ai.lounge.ai/@rasoolrwab
+rasoolradnezhad9094@gmail.com
 
-RWAB Project Profile – AI Lounge:
-https://ai.lounge.ai/@rasoolrwab/rwab
+4. Token and Blockchain References
 
-6. Blockchain References
-
-RWAB Token Contract Address:
+RWAB Token Contract:
 
 "0x64d4eb4819E03D844DD6525c9899569271320243"
 
 PolygonScan:
+
 https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243
 
 Documentation Registry Contract:
@@ -84,52 +67,73 @@ Documentation Registry Contract:
 "0x33E1389c863e7Bc2fcF15396e02b61603C77CA07"
 
 PolygonScan:
+
 https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07
 
 Documentation Registration Transaction:
 
 "0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d"
 
-Transaction Reference:
+PolygonScan:
+
 https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d
 
-7. Project Disclosure and Transparency
+IPFS Documentation Identifier:
 
-RWAB publishes project-declared information concerning its supporting-document and financial-flow records.
+"bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde"
 
-The aggregate nominal reference value currently declared by the project is EUR 23 billion, pending independent verification.
+5. Project Description
 
-This is a project-declared documentation reference. It must not be interpreted as independently verified reserves, cash holdings, bank balances, confirmed collateral, audited asset value, token market capitalization, market price, or a guaranteed redemption amount.
+RWAB is an independently created blockchain-based digital asset documentation initiative deployed on Polygon PoS. The project focuses on organizing supporting documentation, maintaining public technical information, publishing on-chain documentation references, and exploring blockchain-based tokenization.
 
-The publication of blockchain references and cryptographic document identifiers does not independently establish the truth, completeness, ownership, or legal effect of the underlying information.
+The project provides public information about its token contract, documentation registry, founder, and declared supporting-document references.
 
-The project's token market price, if any, is subject to actual market conditions, supply and demand, trading activity, and available liquidity. No fixed market price or guaranteed token value is promised.
+6. Financial Disclosure
 
-8. Founder Contact
+The project currently declares an aggregate nominal documentation reference value of EUR 23 billion, attributed by the project to its supporting-document and financial-flow records.
 
-For official RWAB project inquiries:
+Disclosure status: Project-declared; pending independent verification.
 
-Name: Rasool Radnezhad
+This figure must not be interpreted as independently verified reserves, cash holdings, bank balances, confirmed collateral, audited asset value, token market capitalization, token market price, or a guaranteed redemption amount.
 
-Position: Sole Founder & Project Creator
+The project's declared intended token supply is 16,000,000,000 RWAB. This is a project-declared intended figure and is not, by itself, confirmation of the current live on-chain total supply or any wallet balance.
+
+7. Logo and Public Resources
+
+Official 256 × 256 PNG Logo:
+
+https://rwab-official.github.io/RWAB/RWAB-logo-256.png
+
+Official 64 × 64 PNG Logo:
+
+https://rwab-official.github.io/RWAB/RWAB-logo-64.png
+
+Official 32 × 32 SVG Logo:
+
+https://rwab-official.github.io/RWAB/RWAB-logo-32.svg
+
+8. Founder Declaration and Transparency
+
+I, Rasool Radnezhad, declare that I am the sole founder and project creator of RWAB.
+
+This document is published to provide accessible public information about the founder, project identity, official communication channel, and blockchain references.
+
+The information in this declaration is provided by the project and its founder. Publication does not constitute independent identity verification, professional accreditation, financial audit, security audit, or independent confirmation of the project's declared financial figures.
+
+All project-related statements should be evaluated against the available supporting documentation and independent evidence.
+
+9. Official Contact
+
+Rasool Radnezhad
+
+Sole Founder and Project Creator of RWAB
 
 Email: rasoolradnezhad9094@gmail.com
 
-9. Declaration
+Website: https://rwab-official.github.io/RWAB/
 
-This document is an official public statement issued by the RWAB project founder.
+GitHub: https://github.com/rwab-official/RWAB
 
-It is intended to identify the founder, provide public professional and project references, and make the project's official information accessible to reviewers and interested parties.
+AI Lounge Founder Profile: https://ai.lounge.ai/@rasoolrwab
 
-This declaration does not constitute independent identity verification, professional accreditation, a security audit, legal certification, or independent verification of the project's financial or asset-related claims.
-
-All project information should be assessed in accordance with the published documentation and available independent evidence.
-
----
-
-Rasool Radnezhad
-Sole Founder & Project Creator of RWAB
-
-Official Website: https://rwab-official.github.io/RWAB/
-Official GitHub: https://github.com/rwab-official/RWAB
-Official Email: rasoolradnezhad9094@gmail.com
+AI Lounge Project Profile: https://ai.lounge.ai/@rasoolrwab/rwab
