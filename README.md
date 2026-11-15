@@ -1,174 +1,192 @@
-RWAB — Blockchain-Based Financial Flow Documentation & Tokenization Initiative
 
-1. Project Overview
+# RWAB — RWABackedToken
 
-RWAB is an independently conceived and developed blockchain initiative founded by Rasool Radnezhad.
+Official Project Information, Technical Documentation and Public Disclosures
 
-Built on Polygon PoS, RWAB brings together financial-flow documentation, digital evidence references, blockchain infrastructure, and market-oriented token development.
+## 1. Project Overview
 
-The project aims to establish a structured digital framework for organizing financial-flow information, maintaining accessible documentation, recording on-chain references, and exploring blockchain-based tokenization models.
+RWAB is an independently created blockchain-based digital asset documentation and tokenization initiative deployed on Polygon PoS Mainnet.
 
-2. Founder & Project Creator
+The project focuses on maintaining public technical information, organizing supporting documentation, publishing on-chain documentation references, and exploring blockchain-based tokenization.
 
-Founder: Rasool Radnezhad
-Role: Sole Founder & Project Creator
+This repository provides the project's official information, token references, financial disclosures, and risk information.
 
-RWAB was independently initiated and developed by its founder. The project's concept, vision, technical direction, documentation framework, website, smart contract deployment, and ecosystem development have been led by Rasool Radnezhad.
+## 2. Official Project Information
 
-Official Founder Declaration:
-"Read the Founder Declaration" (https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md)
+- **Project Name:** RWAB
+- **Token Name:** RWABackedToken
+- **Token Symbol:** RWAB
+- **Blockchain Network:** Polygon PoS Mainnet
+- **Chain ID:** 137
+- **Token Decimals:** 18
+- **Founder and Project Creator:** Rasool Radnezhad
+- **Official Project Email:** rasoolradnezhad9094@gmail.com
 
-3. Financial-Flow Documentation — EUR 23 Billion
+**Official Website:**
 
-RWAB's project-declared documentation framework references financial-flow records and supporting documentation with an aggregate nominal reference value of EUR 23 billion.
+https://rwab-official.github.io/RWAB/
 
-This figure represents the aggregate nominal value attributed by the project to the documented financial-flow references and supporting records. It describes the stated scale of the documentation framework.
+**GitHub Repository:**
 
-The EUR 23 billion figure is a documentation reference. It is not a representation of current cash holdings, bank balances, independently verified reserves, confirmed collateral, audited asset value, token market capitalization, token market price, or a guaranteed redemption amount.
+https://github.com/rwab-official/RWAB
 
-The documentation framework is intended to organize financial information, preserve supporting records, improve traceability, and support future review and assessment.
+**Founder Information:**
 
-The underlying financial-flow information and supporting records should be evaluated independently by relevant reviewers.
+https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md
 
-4. Token and Blockchain Information
+## 3. RWAB Token Contract
 
-- Project: RWAB
-- Token Name: RWABackedToken
-- Token Symbol: RWAB
-- Network: Polygon PoS Mainnet
-- Chain ID: 137
-- Decimals: 18
-- Project-Declared Intended Supply: 16,000,000,000 RWAB
+**Token Contract Address:**
 
-The intended supply is a project-declared figure. The live on-chain total supply can be checked through the deployed contract on PolygonScan.
+`0x64d4eb4819E03D844DD6525c9899569271320243`
 
-Token Contract
+**PolygonScan Token Page:**
 
-Contract Address:
+https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243
 
-"0x64d4eb4819E03D844DD6525c9899569271320243"
+**Contract Source Code:**
 
-- "View RWAB Token on PolygonScan" (https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243)
-- "View Contract Source Code" (https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243#code)
+https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243#code
 
-Documentation Registry Contract
+The contract source code is verified on PolygonScan as an exact match to the published source.
 
-Registry Address:
+Source-code verification confirms correspondence between the published source code and the deployed contract. It does not constitute an independent security audit, financial audit, or verification of the project's financial disclosures.
 
-"0x33E1389c863e7Bc2fcF15396e02b61603C77CA07"
+## 4. Financial Disclosure — Aggregate Nominal Value of Financial Flows
 
-- "View Documentation Registry on PolygonScan" (https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07)
+The RWAB project declares an aggregate nominal value of EUR 23 billion attributed to financial flows referenced in the project's supporting records and documentation.
 
-5. Smart Contract Features
+This figure represents the project's declared aggregate nominal reference value of those financial flows.
 
-The published RWAB smart contract source includes:
+It is a project-declared nominal reference figure and is pending independent verification.
 
-- ERC-20 token functionality.
-- Token burning functionality.
-- Owner-controlled token minting.
-- An owner-controlled "totalReserveUSDValue" field.
-- An "updateAssetValuation" function for updating stored valuation-related information.
+It does not represent cash held by RWAB, bank deposits, available cash reserves, confirmed collateral, or independently audited assets.
 
-The valuation field represents information stored in the smart contract. Its presence does not independently establish the existence, ownership, or value of assets, does not constitute independent reserve verification, and does not determine the token's market price.
+The figure does not establish ownership of the referenced funds, their current availability, custody of those funds, or a legally enforceable claim to them.
 
-The contract source is listed as verified on PolygonScan. Source-code verification confirms correspondence between the published source and the deployed contract; it is not equivalent to an independent security audit.
+The referenced financial-flow records must be distinguished from verified reserves, cash holdings, and independently confirmed assets.
 
-6. On-Chain Documentation References
+**Disclosure Status:** Project-declared; pending independent verification.
 
-Network: Polygon PoS Mainnet
-Chain ID: 137
+## 5. RWAB Token Market Price and Valuation Policy
 
-IPFS Documentation Identifier
+The market price of RWAB is not fixed or derived from the declared EUR 23 billion aggregate nominal financial-flow reference value.
 
-"bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde"
+The token's market price is expected to emerge from actual market conditions, including:
 
-"Open the IPFS Documentation Reference" (https://ipfs.io/ipfs/bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde)
+- Supply and demand.
+- Actual trading activity.
+- Market participation.
+- Available liquidity.
+- The development of trading markets.
 
-Polygon Registry Transaction
+The declared financial-flow figure does not establish or guarantee a token price, market capitalization, minimum market price, or redemption value.
 
-"0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d"
+Any future market valuation must emerge from observable market conditions and actual trading activity.
 
-"View Registry Transaction on PolygonScan" (https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d)
+The EUR 23 billion reference figure must not be divided by the token supply to calculate or imply a token market price.
 
-These references form part of RWAB's digital documentation and on-chain evidence-reference framework.
+No fixed token price or guaranteed market value is declared.
 
-The cryptographic hash acts as a digital fingerprint of the referenced documentation package. It can help identify the package and check whether its contents have changed.
+## 6. Smart Contract Functionality and Technical Risks
 
-The on-chain reference does not, by itself, establish the authenticity of every underlying record, prove every reported financial transaction, confirm ownership of assets, establish bank balances or legal rights, or provide independent financial verification.
+The published contract source includes ERC-20 token functionality and ERC-20 burn functionality.
 
-7. Market-Based Token Economy
+The contract also includes owner-controlled minting and an owner-controlled asset valuation update function.
 
-RWAB follows a market-oriented token development model.
+These functions have important implications:
 
-Any market price for RWAB is determined by actual market conditions, including supply and demand, trading activity, market participation, and available liquidity.
+- The owner-controlled minting function allows the contract owner to create additional tokens.
+- Token holders can use the burn functionality to destroy tokens they hold.
+- The asset valuation field is a value recorded in the contract and does not independently verify assets or reserves.
+- The contract's recorded valuation does not determine the token's market price or guarantee redemption.
 
-The EUR 23 billion nominal documentation reference describes the stated scale of documented financial-flow information. It is separate from the token's market price and market capitalization.
+Users should review the deployed contract, its functions, and its access permissions before interacting with the token.
 
-No fixed market price or guaranteed token value is promised.
+**Security Disclosure:** The contract has not been independently security-audited according to the project's currently available disclosures.
 
-8. Marketing, Ecosystem Growth & Liquidity Expansion
+## 7. Documentation Registry and On-Chain Reference
 
-RWAB is pursuing a market-development strategy focused on expanding project visibility, increasing market participation, and developing its blockchain ecosystem.
+**Documentation Registry Contract:**
 
-Current strategic priorities include:
+`0x33E1389c863e7Bc2fcF15396e02b61603C77CA07`
 
-- Marketing and increasing project visibility.
-- Building relationships with blockchain developers and ecosystem participants.
-- Exploring strategic partnerships.
-- Expanding market participation.
-- Exploring liquidity-pool opportunities.
-- Supporting broader access to RWAB through suitable market infrastructure.
+PolygonScan:
 
-Liquidity development is an important part of the project's market-growth strategy. The project intends to explore suitable decentralized-market and liquidity opportunities as its ecosystem develops.
+https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07
 
-The availability of trading pairs, liquidity, exchange access, and participation opportunities depends on implementation, platform requirements, market conditions, and actual market activity.
+**Documentation Registration Transaction:**
 
-Market and Liquidity Resources
+`0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d`
 
-- "QuickSwap Swap" (https://dapp.quickswap.exchange/swap?chainId=137)
-- "QuickSwap Pool" (https://dapp.quickswap.exchange/pool?chainId=137)
-- "QuickSwap Token Analytics" (https://info.quickswap.exchange/tokens)
+PolygonScan:
 
-These links provide access to relevant market tools. Current trading-pair availability, trading activity, and liquidity should be checked directly on the relevant platforms.
+https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d
 
-9. Development Vision
+**IPFS Documentation Identifier:**
 
-RWAB's development vision includes:
+`bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde`
 
-- Improving blockchain-based financial documentation.
-- Expanding digital evidence references and registration.
-- Developing structured financial-flow data frameworks.
-- Exploring blockchain-based tokenization models for documented financial information.
-- Growing the Polygon-based project ecosystem.
-- Expanding marketing, project communication, and ecosystem participation.
-- Building transparent and accessible public documentation.
+These references provide access to the published on-chain documentation registration and the associated IPFS identifier. Their publication does not independently verify the underlying financial records.
 
-Future development may include technical improvements, additional documentation, ecosystem partnerships, and liquidity initiatives, subject to feasibility and applicable requirements.
+## 8. Token Supply and Market Considerations
 
-10. Project Resources
+Token supply information should be assessed using the deployed smart contract and its on-chain data.
 
-- Official Website: https://rwab-official.github.io/RWAB/
-- GitHub Repository: https://github.com/rwab-official/RWAB
-- GitHub Organization: https://github.com/rwab-official
-- Founder Declaration: https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md
+The project's intended supply disclosures must be distinguished from the live circulating supply, total supply, and actual market liquidity.
 
-11. Official Logo Resources
+Token supply does not establish market value.
 
-- "32 × 32 SVG Logo" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-32.svg)
-- "64 × 64 PNG Logo" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-64.png)
-- "256 × 256 PNG Logo" (https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-256.png)
+The market price, if and when trading markets develop, will depend on actual market activity and available liquidity.
 
-12. Project Contact
+## 9. Official Logo and Public Resources
 
-Rasool Radnezhad
-Sole Founder & Project Creator
+**Official 256 × 256 PNG Logo:**
 
-Official Project Email:
+https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-256.png
+
+**Official Website:**
+
+https://rwab-official.github.io/RWAB/
+
+**GitHub Organization:**
+
+https://github.com/rwab-official
+
+## 10. Risk and Verification Disclosure
+
+All financial figures and supporting-document references in this repository are project declarations unless explicitly identified as independently verified.
+
+Publication of supporting records, blockchain references, or smart contract information does not by itself establish ownership, custody, availability, or independent verification of financial assets.
+
+Smart contract source verification is not equivalent to a security audit.
+
+The project does not declare a fixed token price, guaranteed market valuation, or guaranteed redemption value.
+
+Users should independently assess the smart contract, its permissions, market conditions, liquidity, and supporting documentation before making any decision.
+
+## 11. Founder and Official Contact
+
+**Rasool Radnezhad**
+
+Sole Founder and Project Creator of RWAB
+
+**Official Email:**
+
 rasoolradnezhad9094@gmail.com
 
----
+**Founder Profile:**
 
-RWAB — Independent Blockchain Initiative
-Polygon PoS Mainnet · Chain ID 137
+https://ai.lounge.ai/@rasoolrwab
 
-Project information is provided for documentation and informational purposes. Financial-flow references, token information, market activity, and supporting records should be assessed according to the disclosures above and independently available evidence.
+**RWAB Project Profile:**
+
+https://ai.lounge.ai/@rasoolrwab/rwab
+
+**Official Website:**
+
+https://rwab-official.github.io/RWAB/
+
+**GitHub Repository:**
+
+https://github.com/rwab-official/RWAB
