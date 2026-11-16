@@ -1,163 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RWAB — Real-World Asset Metadata Registry on Polygon</title>
-<meta name="description" content="RWAB is a technical protocol for registering, tracking and validating real-world asset metadata on-chain using IPFS and SHA-256 hashes on Polygon PoS.">
-<link rel="icon" href="favicon.png">
-<link rel="alternate" hreflang="en" href="https://rwab-official.github.io/RWAB/">
-<link rel="alternate" hreflang="fa" href="https://rwab-official.github.io/RWAB/fa.html">
-<style>
-*{box-sizing:border-box}
-body{margin:0;background:#0d1117;color:#c9d1d9;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:860px;margin:0 auto;padding:0 20px}
-header{border-bottom:1px solid #21262d;padding:18px 0}
-.bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-.bar svg{flex:none}
-.brand{font-weight:700;color:#e6edf3;text-decoration:none;font-size:18px;letter-spacing:.5px}
-.bar nav{margin-left:auto;display:flex;gap:16px;flex-wrap:wrap}
-.bar nav a{color:#8b949e;text-decoration:none;font-size:14px;white-space:nowrap}
-.bar nav a:hover{color:#d4a017}
-h1{font-size:30px;line-height:1.25;color:#e6edf3;margin:44px 0 14px}
-h2{font-size:21px;color:#e6edf3;margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid #21262d}
-h3{font-size:16px;color:#d4a017;margin:22px 0 8px}
-p{margin:0 0 14px}
-a{color:#d4a017}
-.lead{font-size:18px;color:#8b949e}
-section{padding:36px 0;border-bottom:1px solid #161b22}
-.data{display:grid;grid-template-columns:190px 1fr;gap:10px 18px;margin:18px 0;font-size:15px}
-.data-label{color:#8b949e}
-.data div:last-child{word-break:break-word}
-code{background:#161b22;border:1px solid #21262d;border-radius:4px;padding:2px 6px;font-size:13px;word-break:break-all;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
-.notice{background:#161b22;border-left:3px solid #d4a017;padding:14px 16px;border-radius:0 6px 6px 0;font-size:15px;color:#8b949e}
-ul{margin:0 0 14px;padding-left:22px}
-li{margin-bottom:6px}
-.yes li::marker{color:#3fb950}
-.no li::marker{color:#f85149}
-footer{padding:30px 0 56px;color:#6e7681;font-size:14px}
-@media(max-width:620px){.data{grid-template-columns:1fr;gap:2px}.data-label{margin-top:12px;font-size:13px}h1{font-size:24px}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RWAB publishes information about its Polygon token, document registry, founder, and project disclosures.">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="icon" href="favicon.png">
+  <link rel="canonical" href="https://rwab-official.github.io/RWAB/">
+  <link rel="alternate" hreflang="fa" href="https://rwab-official.github.io/RWAB/fa.html">
+  <title>RWAB | Document Registry on Polygon</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+      font: 16px/1.65 Arial, Helvetica, sans-serif;
+    }
+    .wrap { width: min(100% - 36px, 860px); margin: auto; }
+    header { border-bottom: 1px solid #30363d; }
+    .bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 17px 0;
+    }
+    .brand { color: #f0f6fc; font-size: 21px; font-weight: bold; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+    nav a { font-size: 14px; text-decoration: none; }
+    a { color: #e3b341; overflow-wrap: anywhere; }
+    h1, h2, h3 { color: #f0f6fc; line-height: 1.3; }
+    h1 { font-size: clamp(26px, 6vw, 36px); margin: 38px 0 12px; }
+    h2 { font-size: 21px; margin: 0 0 17px; }
+    h3 { font-size: 17px; margin: 24px 0 9px; }
+    p { margin: 0 0 15px; }
+    .lead { font-size: 18px; color: #aab7c6; }
+    section { padding: 34px 0; border-bottom: 1px solid #30363d; }
+    .data {
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr);
+      gap: 10px 18px;
+      margin: 18px 0;
+    }
+    .label { color: #9daab9; }
+    .data > div { min-width: 0; overflow-wrap: anywhere; }
+    code { overflow-wrap: anywhere; color: #e6edf3; font-size: .91em; }
+    ul { padding-left: 23px; margin: 8px 0 17px; }
+    li { margin: 7px 0; }
+    .notice {
+      padding: 15px 17px;
+      margin: 16px 0;
+      background: #161b22;
+      border-left: 3px solid #e3b341;
+      border-radius: 5px;
+    }
+    footer { padding: 28px 0 48px; color: #9daab9; font-size: 14px; }
+    @media (max-width: 620px) {
+      .data { grid-template-columns: 1fr; gap: 3px; }
+      .label { margin-top: 10px; font-weight: bold; }
+    }
+  </style>
 </head>
 <body>
-<header><div class="wrap bar">
-<svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="32" fill="#161b22" stroke="#d4a017" stroke-width="2"/><text x="32" y="45" font-family="Georgia,serif" font-size="34" font-weight="700" fill="#d4a017" text-anchor="middle">R</text></svg>
-<a class="brand" href="index.html">RWAB</a>
-<nav>
-<a href="#about">About</a><a href="#token">Token</a><a href="#onchain">On-chain</a><a href="#disclosure">Disclosure</a><a href="#contact">Contact</a><a href="fa.html" hreflang="fa" lang="fa">فارسی</a>
-</nav>
-</div></header>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="index.html">RWAB</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#founder">Founder</a>
+        <a href="#token">Token</a>
+        <a href="#onchain">On-chain</a>
+        <a href="#disclosure">Disclosure</a>
+        <a href="#contact">Contact</a>
+        <a href="fa.html" lang="fa" hreflang="fa">فارسی</a>
+      </nav>
+    </div>
+  </header>
 
-<main class="wrap">
-<h1>RWAB — a registry for real-world asset metadata on Polygon</h1>
-<p class="lead">RWAB is a technical protocol for registering, tracking and validating real-world asset (RWA) metadata on-chain. Documents are hashed with SHA-256, stored on IPFS, and the hash together with the IPFS identifier is written to a documentation registry contract on Polygon PoS.</p>
+  <main class="wrap">
+    <h1>RWAB — document references on Polygon</h1>
+    <p class="lead">RWAB is a project for publishing references to document identifiers and hashes through a registry contract on Polygon PoS. A matching hash can help establish whether a copy of a document matches the copy referenced on-chain; it does not validate the document's claims.</p>
 
-<section id="about">
-<h2>1. What this project is</h2>
-<p>RWAB provides a public, tamper-evident record of documents. Anyone can take a document, hash it, and compare the result against what was written on-chain. If the hash matches, the document is the same one that was registered; if it does not, the document has changed.</p>
-<ul>
-<li>A token contract on Polygon PoS with a fixed supply of 16,000,000,000 RWAB.</li>
-<li>A documentation registry contract that stores document hashes and IPFS identifiers.</li>
-<li>A public repository containing the website, the disclosures and the exact on-chain references.</li>
-</ul>
-<h3>What this project is not</h3>
-<ul class="no">
-<li>Not a bank, custodian, fund, or investment scheme.</li>
-<li>The token is not a claim on cash, reserves, collateral or any asset.</li>
-<li>No yield, return, profit share or redemption right is offered or promised.</li>
-<li>No audit, valuation or third-party attestation has been obtained.</li>
-</ul>
-</section>
+    <section id="about">
+      <h2>1. Project overview</h2>
+      <p>The project publishes a token contract, a separate document registry contract, a website, and public documentation. The registry can store an IPFS identifier and a SHA-256 file hash.</p>
+      <p>RWAB is not presented as a bank, custodian, fund, or independently audited investment product. Holding the token does not, by itself, establish ownership of the documents' referenced assets or a right to payment, redemption, yield, or profit.</p>
+    </section>
 
-<section id="founder">
-<h2>2. Founder and project creator</h2>
-<div class="data">
-<div class="data-label">Name</div><div>Rasool Radnezhad</div>
-<div class="data-label">Role</div><div>Sole founder and project creator</div>
-<div class="data-label">Location</div><div>Tehran, Iran</div>
-<div class="data-label">Official profile</div><div><a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></div>
-<div class="data-label">Project profile</div><div><a href="https://ai.lounge.ai/@rasoolrwab/rwab" rel="me noopener">ai.lounge.ai/@rasoolrwab/rwab</a></div>
-<div class="data-label">GitHub</div><div><a href="https://github.com/rwab-official" rel="noopener">github.com/rwab-official</a></div>
-</div>
-<p>RWAB was initiated and is maintained by one person, who is responsible for the contract deployment, the documentation repository, this website and the public disclosures. No employees, co-founders, advisors or team members are claimed.</p>
-<p>The AI Lounge profile above is the founder's designated official public channel. It carries the founder's photograph, the project description and the same contact address published on this site. It is used because the founder is resident in Iran, where LinkedIn is not accessible, so a LinkedIn profile could not be created or maintained.</p>
-<p class="notice">The linked profile is a public community profile. It is not independent identity verification, professional accreditation or platform endorsement.</p>
-</section>
+    <section id="founder">
+      <h2>2. Founder</h2>
+      <div class="data">
+        <div class="label">Name</div><div>Rasool Radnezhad</div>
+        <div class="label">Role</div><div>Founder and project creator</div>
+        <div class="label">Location</div><div>Tehran, Iran</div>
+        <div class="label">Designated public profile</div>
+        <div><a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></div>
+        <div class="label">Project repository</div>
+        <div><a href="https://github.com/rwab-official/RWAB" rel="noopener">github.com/rwab-official/RWAB</a></div>
+      </div>
+      <p>The AI Lounge page is the founder's designated public contact and identity channel. A public profile is not independent identity verification or an endorsement by that platform.</p>
+    </section>
 
-<section id="token">
-<h2>3. Token</h2>
-<div class="data">
-<div class="data-label">Name</div><div>RWABackedToken</div>
-<div class="data-label">Symbol</div><div>RWAB</div>
-<div class="data-label">Network</div><div>Polygon PoS mainnet (chain ID 137)</div>
-<div class="data-label">Decimals</div><div>18</div>
-<div class="data-label">Total supply</div><div>16,000,000,000 RWAB — fixed, verifiable on-chain</div>
-<div class="data-label">Contract</div><div><code>0x64d4eb4819E03D844DD6525c9899569271320243</code></div>
-<div class="data-label">Source code</div><div>Verified on PolygonScan — Exact Match, Solidity v0.8.35</div>
-<div class="data-label">Owner</div><div><code>0x29c7e457644f9D5d744bf52455AA2ad85aA8BF50</code></div>
-</div>
-<p>The total supply is not an intention or a target. It is the value returned by <code>totalSupply()</code> on the deployed contract and can be read by anyone. The owner address is published here because it is already visible on-chain.</p>
-</section>
+    <section id="token">
+      <h2>3. RWAB token</h2>
+      <div class="data">
+        <div class="label">Contract name</div><div>RWABackedToken</div>
+        <div class="label">Symbol</div><div>RWAB</div>
+        <div class="label">Network</div><div>Polygon PoS mainnet, chain ID 137</div>
+        <div class="label">Decimals</div><div>18</div>
+        <div class="label">Reported total supply</div><div>16,000,000,000 RWAB; check <code>totalSupply()</code> on-chain</div>
+        <div class="label">Token contract</div>
+        <div><a href="https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243#code" rel="noopener"><code>0x64d4eb4819E03D844DD6525c9899569271320243</code></a></div>
+        <div class="label">Published owner address</div>
+        <div><code>0x29c7e457644f9D5d744bf52455AA2ad85aA8BF50</code></div>
+      </div>
+      <p>The token is separate from the registry contract. Source-code verification does not establish a token price, financial backing, or an independent security audit.</p>
+    </section>
 
-<section id="onchain">
-<h2>4. On-chain references</h2>
-<div class="data">
-<div class="data-label">Token contract</div><div><a href="https://polygonscan.com/token/0x64d4eb4819E03D844DD6525c9899569271320243" rel="noopener">0x64d4…0243 on PolygonScan</a></div>
-<div class="data-label">Registry contract</div><div><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07" rel="noopener">0x33E1…CA07 on PolygonScan</a></div>
-<div class="data-label">Registry call</div><div><a href="https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d" rel="noopener">0xd9ba…fc6d</a> — block 96,625,338</div>
-<div class="data-label">IPFS identifier</div><div><code>bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde</code></div>
-<div class="data-label">SHA-256 prefix</div><div><code>e05c954a…</code> (present in the call input)</div>
-</div>
-<p>The transaction above is a call to a method on the registry contract, not a contract deployment. The registry contract's source code is deployed and publicly readable, but its source verification on PolygonScan is still pending.</p>
-</section>
+    <section id="onchain">
+      <h2>4. Registry and on-chain references</h2>
+      <div class="data">
+        <div class="label">Registry contract</div>
+        <div><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07#code" rel="noopener"><code>0x33E1389c863e7Bc2fcF15396e02b61603C77CA07</code></a></div>
+        <div class="label">Source verification</div>
+        <div>PolygonScan source-code verification: Exact Match, according to the project's verification record dated 17 November 2026.</div>
+        <div class="label">Compiler configuration</div>
+        <div>Solidity v0.8.38; optimizer disabled; MIT license.</div>
+        <div class="label">Deployment transaction</div>
+        <div><a href="https://polygonscan.com/tx/0x1666fbaefc268ecfc5f0050174acfc59d27cf071be6aa03902c0220304edeacd" rel="noopener"><code>0x1666fbae…edeacd</code></a></div>
+        <div class="label">Document registration call</div>
+        <div><a href="https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d" rel="noopener"><code>0xd9ba1a8b…f6fc6d</code></a></div>
+        <div class="label">Published IPFS identifier</div>
+        <div><code>bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde</code></div>
+      </div>
+      <p class="notice">The deployment transaction and the document registration call are different transactions. Published source code allows inspection of the deployed contract; it does not verify the truth, ownership, legality, or financial value of any registered document. No independent security audit is claimed.</p>
+    </section>
 
-<section id="disclosure">
-<h2>5. Referenced financial-flow records — project-declared figure</h2>
-<p>The project declares an aggregate nominal value of <strong>EUR 23 billion</strong> for the financial flows referenced in the documents it has uploaded and registered.</p>
-<h3>What this figure is</h3>
-<ul class="yes">
-<li>A project-declared aggregate of the nominal values written in those documents.</li>
-<li>A description of documentary scale — how large the flows described in the uploaded records are.</li>
-<li>Disclosed openly so that no one has to guess what the project is referring to.</li>
-</ul>
-<h3>What this figure is not</h3>
-<ul class="no">
-<li>Not cash held by the project, and not a bank balance.</li>
-<li>Not reserves, not collateral, and not backing for the RWAB token.</li>
-<li>Not audited, not independently verified, and not confirmed by any third party.</li>
-<li>Not a market capitalisation, not a token price, and not a redemption value.</li>
-<li>Not proof of ownership of, or a legal claim to, any of the referenced funds.</li>
-</ul>
-<p class="notice">Status: project-declared, pending independent verification. The figure is deliberately kept out of the token's on-chain metadata and out of any listing description.</p>
-</section>
+    <section id="disclosure">
+      <h2>5. Financial-document disclosure</h2>
+      <p><strong>EUR 23 billion is a project-declared aggregate document scale.</strong> It describes nominal figures referenced in project-published documents. It is not independently audited or verified.</p>
+      <ul>
+        <li>It is <strong>not cash</strong> held by the project or a bank balance.</li>
+        <li>It is <strong>not reserves, collateral, or backing</strong> for RWAB.</li>
+        <li>It is <strong>not a valuation</strong>, token price, market capitalization, or redemption amount.</li>
+        <li>Publishing a document hash does not prove ownership of, or a legal claim to, the amounts described in a document.</li>
+      </ul>
+      <p class="notice">No independent auditor, financial institution, or PolygonScan review is claimed to have confirmed the project-declared figure.</p>
+    </section>
 
-<section id="ecosystem">
-<h2>6. Token price</h2>
-<p>The market price of RWAB is not fixed and is not derived from the declared EUR 23 billion figure. Any price must emerge from actual trading, supply and demand, liquidity and market participation. No price, minimum value, valuation or redemption guarantee is declared or implied.</p>
-</section>
+    <section id="resources">
+      <h2>6. Documents</h2>
+      <ul>
+        <li><a href="https://github.com/rwab-official/RWAB/blob/main/README.md" rel="noopener">Project README</a></li>
+        <li><a href="https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md" rel="noopener">Founder declaration</a></li>
+        <li><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07#readContract" rel="noopener">Read the registry contract</a></li>
+      </ul>
+    </section>
 
-<section id="resources">
-<h2>7. Resources</h2>
-<div class="data">
-<div class="data-label">Website</div><div><a href="https://rwab-official.github.io/RWAB/" rel="noopener">rwab-official.github.io/RWAB</a></div>
-<div class="data-label">Repository</div><div><a href="https://github.com/rwab-official/RWAB" rel="noopener">github.com/rwab-official/RWAB</a></div>
-<div class="data-label">Founder declaration</div><div><a href="https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md" rel="noopener">FOUNDER.md</a></div>
-<div class="data-label">Technical notes</div><div><a href="https://github.com/rwab-official/RWAB/blob/main/README.md" rel="noopener">README.md</a></div>
-<div class="data-label">Logo</div><div><a href="https://github.com/rwab-official/RWAB/blob/main/RWAB-logo-256.png" rel="noopener">RWAB-logo-256.png</a></div>
-</div>
-</section>
+    <section id="contact">
+      <h2>7. Contact</h2>
+      <p>Founder: Rasool Radnezhad</p>
+      <p>Email: <a href="mailto:rasoolradnezhad9094@gmail.com">rasoolradnezhad9094@gmail.com</a></p>
+      <p>Public profile: <a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></p>
+      <p class="notice">This page is published by the project. Its publication is not independent identity verification, a financial audit, or a security audit.</p>
+    </section>
+  </main>
 
-<section id="contact">
-<h2>8. Contact</h2>
-<div class="data">
-<div class="data-label">Email</div><div><a href="mailto:rasoolradnezhad9094@gmail.com">rasoolradnezhad9094@gmail.com</a></div>
-<div class="data-label">Founder</div><div>Rasool Radnezhad — sole founder and project creator</div>
-<div class="data-label">Official profile</div><div><a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></div>
-</div>
-<p class="notice">All information on this page is published by the project and its founder. Publication does not constitute independent identity verification, financial audit, security audit or independent confirmation of the declared figures.</p>
-</section>
-</main>
-
-<footer><div class="wrap">RWAB — independent project on Polygon PoS. Last updated 2026.</div></footer>
+  <footer><div class="wrap">RWAB — Polygon PoS project documentation. Updated 17 November 2026.</div></footer>
 </body>
 </html>
