@@ -10,61 +10,67 @@
   <link rel="alternate" hreflang="en" href="https://rwab-official.github.io/RWAB/">
   <title>RWAB | سامانه ثبت اسناد روی پالیگان</title>
   <style>
-    body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
-    h1, h2, h3 { color: #000; }
-    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
-    footer { margin-top: 50px; font-size: 0.9em; color: #777; text-align: center; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0d1117; color: #c9d1d9; font: 16px/1.65 Tahoma, Arial, sans-serif; text-align: right; }
+    .wrap { width: min(100% - 36px, 860px); margin: auto; }
+    header { border-bottom: 1px solid #30363d; padding: 17px 0; }
+    .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .brand { color: #f0f6fc; font-size: 21px; font-weight: bold; text-decoration: none; }
+    nav { display: flex; gap: 8px 16px; }
+    nav a { font-size: 14px; text-decoration: none; color: #e3b341; }
+    a { color: #e3b341; overflow-wrap: anywhere; }
+    h1, h2, h3 { color: #f0f6fc; margin: 38px 0 12px; }
+    p { margin: 0 0 15px; }
+    code { background: #161b22; padding: 2px 5px; border-radius: 4px; direction: ltr; display: inline-block; }
+    section { padding: 34px 0; border-bottom: 1px solid #30363d; }
+    footer { padding: 40px 0; color: #9daab9; font-size: 14px; text-align: center; }
   </style>
 </head>
 <body>
 
-<h1>RWAB — سامانه ثبت فراداده دارایی‌های واقعی روی پالیگان</h1>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="fa.html">RWAB</a>
+    <nav>
+      <a href="index.html">English</a>
+    </nav>
+  </div>
+</header>
 
-<p>RWAB یک پروتکل فنی برای ثبت، پیگیری و اعتبارسنجی فراداده دارایی‌های واقعی (RWA) روی زنجیره است. اسناد با SHA-256 هش می‌شوند، روی IPFS نگهداری می‌شوند و هش همراه با شناسه IPFS در یک قرارداد ثبت اسناد روی پالیگان نوشته می‌شود.</p>
+<main class="wrap">
+  <h1>RWAB — سامانه ثبت فراداده دارایی‌های واقعی روی پالیگان</h1>
+  <p>RWAB یک پروتکل فنی برای ثبت، پیگیری و اعتبارسنجی فراداده دارایی‌های واقعی (RWA) روی زنجیره است. اسناد با SHA-256 هش می‌شوند، روی IPFS نگهداری می‌شوند و هش همراه با شناسه IPFS در یک قرارداد ثبت اسناد روی پالیگان نوشته می‌شود.</p>
 
-<h2>۱. این پروژه چیست</h2>
+  <section>
+    <h2>۱. این پروژه چیست</h2>
+    <p>RWAB یک دفتر عمومی و دستکاری‌ناپذیر از اسناد فراهم می‌کند. هر کسی می‌تواند یک سند را هش کند و نتیجه را با آنچه روی زنجیره نوشته شده مقایسه کند.</p>
+    <ul>
+      <li>یک قرارداد توکن روی پالیگان با عرضه ثابت ۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن RWAB.</li>
+      <li>یک قرارداد ثبت اسناد که هش اسناد و شناسه‌های IPFS را نگه می‌دارد.</li>
+    </ul>
+  </section>
 
-<p>RWAB یک دفتر عمومی و دستکاری‌ناپذیر از اسناد فراهم می‌کند. هر کسی می‌تواند یک سند را هش کند و نتیجه را با آنچه روی زنجیره نوشته شده مقایسه کند. اگر هش یکی باشد، سند همان سند ثبت‌شده است؛ اگر نباشد، سند تغییر کرده است.</p>
+  <section>
+    <h2>۲. توکن</h2>
+    <p>نام: RWABackedToken | نماد: RWAB</p>
+    <p>قرارداد توکن: <code>0x64d4eb4819E03D844DD6525c9899569271320243</code></p>
+    <p><strong>کد منبع: تأییدشده در PolygonScan — تطابق کامل (Exact Match)، سالیدیتی نسخه ۰.۸.۳۸؛ غیرفعال‌سازی Optimizer؛ مجوز MIT.</strong></p>
+  </section>
 
-<ul>
-  <li>یک قرارداد توکن روی پالیگان با عرضه ثابت ۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن RWAB.</li>
-  <li>یک قرارداد ثبت اسناد که هش اسناد و شناسه‌های IPFS را نگه می‌دارد.</li>
-  <li>یک مخزن عمومی شامل وب‌سایت، اعلامیه‌ها و ارجاع‌های دقیق روی زنجیره.</li>
-</ul>
+  <section>
+    <h2>۳. ارجاع‌های روی زنجیره</h2>
+    <p>قرارداد ثبت: <code>0x33E1389c863e7Bc2fcF15396e02b61603C77CA07</code></p>
+  </section>
 
-<h3>این پروژه چه چیزی نیست</h3>
+  <section>
+    <h2>۴. سوابق جریان مالی — رقم اعلامی پروژه</h2>
+    <p>پروژه یک ارزش اسمی تجمعی معادل <strong>۲۳ میلیارد یورو</strong> برای جریان‌های مالی ارجاع‌شده در اسناد ثبت‌شده اعلام می‌کند.</p>
+    <p>این رقم «مقیاس اسنادی اعلامی پروژه» است و موجودی بانکی، وثیقه، یا ذخیره نیست.</p>
+  </section>
+</main>
 
-<ul>
-  <li>بانک، متولی، صندوق یا طرح سرمایه‌گذاری نیست.</li>
-  <li>توکن، مطالبه‌ای نسبت به پول نقد، ذخایر، وثیقه یا هیچ دارایی نیست.</li>
-  <li>هیچ سود، بازده، سهم منفعت یا حق بازخریدی ارائه یا وعده داده نمی‌شود.</li>
-  <li>هیچ حسابرسی، ارزیابی یا تأییدیه شخص ثالثی دریافت نشده است.</li>
-</ul>
-
-<h2>۲. بنیان‌گذار و سازنده پروژه</h2>
-
-<p>نام: رسول راد نژاد<br>
-نقش: بنیان‌گذار و تنها سازنده پروژه<br>
-کانال رسمی: <a href="https://ai.lounge.ai/@rasoolrwab">ai.lounge.ai/@rasoolrwab</a></p>
-
-<h2>۳. توکن</h2>
-
-<p>نام: RWABackedToken<br>
-نماد: RWAB<br>
-شبکه: پالیگان، شبکه اصلی (شناسه زنجیره ۱۳۷)<br>
-عرضه کل: ۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن — ثابت و قابل بررسی روی زنجیره<br>
-قرارداد: <code>0x64d4eb4819E03D844DD6525c9899569271320243</code><br>
-کد منبع: <strong>تأییدشده در PolygonScan — تطابق کامل (Exact Match)، سالیدیتی نسخه ۰.۸.۳۸؛ غیرفعال‌سازی Optimizer؛ مجوز MIT.</strong></p>
-
-<h2>۴. ارجاع‌های روی زنجیره</h2>
-
-<p>قرارداد توکن: <a href="https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243">0x64d4…0243</a><br>
-قرارداد ثبت: <a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07">0x33E1…CA07</a></p>
-
-<h2>۵. سوابق جریان مالی ارجاع‌شده — رقم اعلامی پروژه</h2>
-
-<p>پروژه یک ارزش اسمی تجمعی معادل <strong>۲۳ میلیارد یورو</strong> برای جریان‌های مالی ارجاع‌شده در اسنادی که بارگذاری و ثبت کرده است، اعلام می‌کند. این رقم «مقیاس اسنادی اعلامی پروژه» است و موجودی بانکی، وثیقه، یا ذخیره نیست.</p>
-
-<footer><div class="wrap">RWAB — مستندات پروژه روی پالیگان. آخرین به‌روزرسانی ۱۷ نوامبر ۲۰۲۶.</div></footer>
+<footer>
+  <div class="wrap">RWAB — مستندات پروژه روی پالیگان. ۱۷ نوامبر ۲۰۲۶.</div>
+</footer>
 </body>
 </html>
