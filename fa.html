@@ -10,167 +10,61 @@
   <link rel="alternate" hreflang="en" href="https://rwab-official.github.io/RWAB/">
   <title>RWAB | سامانه ثبت اسناد روی پالیگان</title>
   <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #0d1117;
-      color: #c9d1d9;
-      font: 16px/1.65 Tahoma, Arial, Helvetica, sans-serif;
-      text-align: right;
-    }
-    .wrap { width: min(100% - 36px, 860px); margin: auto; }
-    header { border-bottom: 1px solid #30363d; }
-    .bar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-      padding: 17px 0;
-    }
-    .brand { color: #f0f6fc; font-size: 21px; font-weight: bold; text-decoration: none; }
-    nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
-    nav a { font-size: 14px; text-decoration: none; }
-    a { color: #e3b341; overflow-wrap: anywhere; }
-    h1, h2, h3 { color: #f0f6fc; line-height: 1.3; }
-    h1 { font-size: clamp(24px, 5vw, 34px); margin: 38px 0 12px; }
-    h2 { font-size: 21px; margin: 0 0 17px; }
-    h3 { font-size: 17px; margin: 24px 0 9px; }
-    p { margin: 0 0 15px; }
-    .lead { font-size: 18px; color: #aab7c6; }
-    section { padding: 34px 0; border-bottom: 1px solid #30363d; }
-    .data {
-      display: grid;
-      grid-template-columns: 180px minmax(0, 1fr);
-      gap: 10px 18px;
-      margin: 18px 0;
-    }
-    .label { color: #9daab9; }
-    .data > div { min-width: 0; overflow-wrap: anywhere; }
-    code { overflow-wrap: anywhere; color: #e6edf3; font-size: .91em; direction: ltr; unicode-bidi: embed; display: inline-block; }
-    ul { padding-right: 23px; padding-left: 0; margin: 8px 0 17px; }
-    li { margin: 7px 0; }
-    .notice {
-      padding: 15px 17px;
-      margin: 16px 0;
-      background: #161b22;
-      border-right: 3px solid #e3b341;
-      border-left: none;
-      border-radius: 5px;
-    }
-    footer { padding: 28px 0 48px; color: #9daab9; font-size: 14px; }
-    @media (max-width: 620px) {
-      .data { grid-template-columns: 1fr; gap: 3px; }
-      .label { margin-top: 10px; font-weight: bold; }
-    }
+    body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
+    h1, h2, h3 { color: #000; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    footer { margin-top: 50px; font-size: 0.9em; color: #777; text-align: center; }
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap bar">
-      <a class="brand" href="fa.html">RWAB</a>
-      <nav aria-label="فهرست اصلی">
-        <a href="#about">درباره</a>
-        <a href="#founder">بنیان‌گذار</a>
-        <a href="#token">توکن</a>
-        <a href="#onchain">روی زنجیره</a>
-        <a href="#disclosure">شفاف‌سازی</a>
-        <a href="#contact">تماس</a>
-        <a href="index.html" lang="en" hreflang="en">English</a>
-      </nav>
-    </div>
-  </header>
 
-  <main class="wrap">
-    <h1>RWAB — سامانه ثبت فراداده اسناد روی پالیگان</h1>
-    <p class="lead">پروتکلی برای انتشار ارجاع به شناسه‌ها و هش‌های اسناد از طریق یک قرارداد ثبتی روی پالیگان پاس. تطابق هش کمک می‌کند بررسی شود آیا یک کپی از سند با نسخه ثبت‌شده روی زنجیره مطابقت دارد یا خیر؛ این پروتکل ادعاهای درون سند را تأیید نمی‌کند.</p>
+<h1>RWAB — سامانه ثبت فراداده دارایی‌های واقعی روی پالیگان</h1>
 
-    <section id="about">
-      <h2>۱. نمای کلی پروژه</h2>
-      <p>این پروژه یک قرارداد توکن، یک قرارداد ثبت اسناد، یک وب‌سایت و مستندات عمومی منتشر می‌کند. قرارداد ثبت می‌تواند شناسه IPFS و هش SHA-256 فایل را ذخیره کند.</p>
-      <p>RWAB به عنوان بانک، متولی، صندوق یا محصول سرمایه‌گذاری حسابرسی‌شده معرفی نمی‌شود. نگهداری توکن به‌خودی‌خود به معنای مالکیت دارایی‌های ارجاع‌شده در اسناد یا حق دریافت پرداخت، بازده یا سود نیست.</p>
-    </section>
+<p>RWAB یک پروتکل فنی برای ثبت، پیگیری و اعتبارسنجی فراداده دارایی‌های واقعی (RWA) روی زنجیره است. اسناد با SHA-256 هش می‌شوند، روی IPFS نگهداری می‌شوند و هش همراه با شناسه IPFS در یک قرارداد ثبت اسناد روی پالیگان نوشته می‌شود.</p>
 
-    <section id="founder">
-      <h2>۲. بنیان‌گذار و سازنده پروژه</h2>
-      <div class="data">
-        <div class="label">نام</div><div>رسول رادنژاد</div>
-        <div class="label">نقش</div><div>بنیان‌گذار و سازنده پروژه</div>
-        <div class="label">محل اقامت</div><div>تهران، ایران</div>
-        <div class="label">کانال عمومی رسمی</div>
-        <div><a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></div>
-        <div class="label">مخزن پروژه</div>
-        <div><a href="https://github.com/rwab-official/RWAB" rel="noopener">github.com/rwab-official/RWAB</a></div>
-      </div>
-      <p>صفحه AI Lounge کانال ارتباطی و هویت رسمی تعیین‌شده توسط بنیان‌گذار است. این نمایه به معنای احراز هویت مستقل یا تأییدیه پلتفرم نیست.</p>
-    </section>
+<h2>۱. این پروژه چیست</h2>
 
-    <section id="token">
-      <h2>۳. توکن RWAB</h2>
-      <div class="data">
-        <div class="label">نام قرارداد</div><div>RWABackedToken</div>
-        <div class="label">نماد</div><div>RWAB</div>
-        <div class="label">شبکه</div><div>پالیگان پاس، شناسه زنجیره ۱۳۷</div>
-        <div class="label">اعشار</div><div>۱۸</div>
-        <div class="label">عرضه کل اعلامی</div><div>۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن؛ بررسی از طریق تابع <code>totalSupply()</code> روی زنجیره</div>
-        <div class="label">قرارداد توکن</div>
-        <div><a href="https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243#code" rel="noopener"><code>0x64d4eb4819E03D844DD6525c9899569271320243</code></a></div>
-        <div class="label">نشانی مالک</div>
-        <div><code>0x29c7e457644f9D5d744bf52455AA2ad85aA8BF50</code></div>
-      </div>
-      <p>توکن از قرارداد ثبت جدا است. تأیید کد منبع به معنای تعیین قیمت توکن، پشتوانه مالی یا حسابرسی امنیتی مستقل نیست.</p>
-    </section>
+<p>RWAB یک دفتر عمومی و دستکاری‌ناپذیر از اسناد فراهم می‌کند. هر کسی می‌تواند یک سند را هش کند و نتیجه را با آنچه روی زنجیره نوشته شده مقایسه کند. اگر هش یکی باشد، سند همان سند ثبت‌شده است؛ اگر نباشد، سند تغییر کرده است.</p>
 
-    <section id="onchain">
-      <h2>۴. رجیستری و ارجاع‌های روی زنجیره</h2>
-      <div class="data">
-        <div class="label">قرارداد ثبت (Registry)</div>
-        <div><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07#code" rel="noopener"><code>0x33E1389c863e7Bc2fcF15396e02b61603C77CA07</code></a></div>
-        <div class="label">تأیید منبع</div>
-        <div>تأیید کد منبع در PolygonScan: تطابق کامل (Exact Match)، بر اساس رکورد تاریخ ۱۷ نوامبر ۲۰۲۶.</div>
-        <div class="label">تنظیمات کامپایلر</div>
-        <div>سالیدیتی نسخه ۰.۸.۳۸؛ غیرفعال‌سازی Optimizer؛ مجوز MIT.</div>
-        <div class="label">تراکنش استقرار</div>
-        <div><a href="https://polygonscan.com/tx/0x1666fbaefc268ecfc5f0050174acfc59d27cf071be6aa03902c0220304edeacd" rel="noopener"><code>0x1666fbae…edeacd</code></a></div>
-        <div class="label">تراکنش ثبت سند</div>
-        <div><a href="https://polygonscan.com/tx/0xd9ba1a8b3ef66ee59257e5107c70299a8add98d2b13a28dc36c02ff461f6fc6d" rel="noopener"><code>0xd9ba1a8b…f6fc6d</code></a></div>
-        <div class="label">شناسه IPFS</div>
-        <div><code>bafkreihalskuv7cnjlnohbdevwizvaj7c4px2yrdehq4aienwl2j3yixde</code></div>
-      </div>
-      <p class="notice">تراکنش استقرار و تراکنش ثبت سند دو تراکنش مجزا هستند. انتشار کد منبع امکان بررسی قرارداد مستقرشده را فراهم می‌کند، اما صحت، مالکیت، قانونی بودن یا ارزش مالی هیچ سند ثبت‌شده‌ای را تأیید نمی‌کند.</p>
-    </section>
+<ul>
+  <li>یک قرارداد توکن روی پالیگان با عرضه ثابت ۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن RWAB.</li>
+  <li>یک قرارداد ثبت اسناد که هش اسناد و شناسه‌های IPFS را نگه می‌دارد.</li>
+  <li>یک مخزن عمومی شامل وب‌سایت، اعلامیه‌ها و ارجاع‌های دقیق روی زنجیره.</li>
+</ul>
 
-    <section id="disclosure">
-      <h2>۵. افشای اسناد مالی</h2>
-      <p><strong>مبلغ ۲۳ میلیارد یورو مقیاس تجمعی اسناد اعلام‌شده توسط پروژه است.</strong> این رقم توصیف‌کننده مقادیر اسمی ذکرشده در اسناد منتشرشده توسط پروژه است و به‌طور مستقل حسابرسی یا تأیید نشده است.</p>
-      <ul>
-        <li>این رقم <strong>پول نقد</strong> در اختیار پروژه یا موجودی بانکی نیست.</li>
-        <li>این رقم <strong>ذخیره، وثیقه یا پشتوانه</strong> توکن RWAB نیست.</li>
-        <li>این رقم <strong>ارزش‌گذاری، قیمت توکن، ارزش بازار یا مبلغ بازخرید</strong> نیست.</li>
-        <li>انتشار هش سند اثبات‌کننده مالکیت یا ادعای قانونی نسبت به مبالغ ذکرشده در سند نیست.</li>
-      </ul>
-      <p class="notice">هیچ حسابرس مستقل، مؤسسه مالی یا بررسی‌کننده‌ای در PolygonScan تأییدیه این رقم اعلامی را صادر نکرده است.</p>
-    </section>
+<h3>این پروژه چه چیزی نیست</h3>
 
-    <section id="resources">
-      <h2>۶. اسناد</h2>
-      <ul>
-        <li><a href="https://github.com/rwab-official/RWAB/blob/main/README.md" rel="noopener">راهنمای پروژه (README)</a></li>
-        <li><a href="https://github.com/rwab-official/RWAB/blob/main/FOUNDER.md" rel="noopener">اعلامیه بنیان‌گذار</a></li>
-        <li><a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07#readContract" rel="noopener">مشاهده قرارداد ثبت</a></li>
-        <li><a href="index.html" hreflang="en" lang="en">English version</a></li>
-      </ul>
-    </section>
+<ul>
+  <li>بانک، متولی، صندوق یا طرح سرمایه‌گذاری نیست.</li>
+  <li>توکن، مطالبه‌ای نسبت به پول نقد، ذخایر، وثیقه یا هیچ دارایی نیست.</li>
+  <li>هیچ سود، بازده، سهم منفعت یا حق بازخریدی ارائه یا وعده داده نمی‌شود.</li>
+  <li>هیچ حسابرسی، ارزیابی یا تأییدیه شخص ثالثی دریافت نشده است.</li>
+</ul>
 
-    <section id="contact">
-      <h2>۷. تماس</h2>
-      <p>بنیان‌گذار: رسول رادنژاد</p>
-      <p>ایمیل: <a href="mailto:rasoolradnezhad9094@gmail.com">rasoolradnezhad9094@gmail.com</a></p>
-      <p>کانال رسمی: <a href="https://ai.lounge.ai/@rasoolrwab" rel="me noopener">ai.lounge.ai/@rasoolrwab</a></p>
-      <p class="notice">این صفحه از سوی پروژه منتشر شده است و انتشار آن به معنای هویت‌سنجی مستقل، حسابرسی مالی یا حسابرسی امنیتی نیست.</p>
-    </section>
-  </main>
+<h2>۲. بنیان‌گذار و سازنده پروژه</h2>
 
-  <footer><div class="wrap">RWAB — مستندات پروژه روی پالیگان پاس. آخرین به‌روزرسانی ۱۷ نوامبر ۲۰۲۶.</div></footer>
+<p>نام: رسول راد نژاد<br>
+نقش: بنیان‌گذار و تنها سازنده پروژه<br>
+کانال رسمی: <a href="https://ai.lounge.ai/@rasoolrwab">ai.lounge.ai/@rasoolrwab</a></p>
+
+<h2>۳. توکن</h2>
+
+<p>نام: RWABackedToken<br>
+نماد: RWAB<br>
+شبکه: پالیگان، شبکه اصلی (شناسه زنجیره ۱۳۷)<br>
+عرضه کل: ۱۶٬۰۰۰٬۰۰۰٬۰۰۰ توکن — ثابت و قابل بررسی روی زنجیره<br>
+قرارداد: <code>0x64d4eb4819E03D844DD6525c9899569271320243</code><br>
+کد منبع: <strong>تأییدشده در PolygonScan — تطابق کامل (Exact Match)، سالیدیتی نسخه ۰.۸.۳۸؛ غیرفعال‌سازی Optimizer؛ مجوز MIT.</strong></p>
+
+<h2>۴. ارجاع‌های روی زنجیره</h2>
+
+<p>قرارداد توکن: <a href="https://polygonscan.com/address/0x64d4eb4819E03D844DD6525c9899569271320243">0x64d4…0243</a><br>
+قرارداد ثبت: <a href="https://polygonscan.com/address/0x33E1389c863e7Bc2fcF15396e02b61603C77CA07">0x33E1…CA07</a></p>
+
+<h2>۵. سوابق جریان مالی ارجاع‌شده — رقم اعلامی پروژه</h2>
+
+<p>پروژه یک ارزش اسمی تجمعی معادل <strong>۲۳ میلیارد یورو</strong> برای جریان‌های مالی ارجاع‌شده در اسنادی که بارگذاری و ثبت کرده است، اعلام می‌کند. این رقم «مقیاس اسنادی اعلامی پروژه» است و موجودی بانکی، وثیقه، یا ذخیره نیست.</p>
+
+<footer><div class="wrap">RWAB — مستندات پروژه روی پالیگان. آخرین به‌روزرسانی ۱۷ نوامبر ۲۰۲۶.</div></footer>
 </body>
 </html>
